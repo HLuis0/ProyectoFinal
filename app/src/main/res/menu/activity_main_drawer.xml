@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/panelControl"
+            android:icon="@drawable/baseline_admin_panel_settings_24"
+            android:title="@string/menu_panel" />
+        <item
+            android:id="@+id/nuevoRegistro"
+            android:icon="@drawable/baseline_person_add_alt_24"
+            android:title="@string/menu_registro" />
+        <item
+            android:id="@+id/pago"
+            android:icon="@drawable/ic_menu_creditcard"
+            android:title="@string/menu_pago" />
+        <item
+            android:id="@+id/miembros"
+            android:icon="@drawable/baseline_people_24"
+            android:title="@string/menu_miembros" />
+        <item
+            android:id="@+id/estadoSalud"
+            android:icon="@drawable/baseline_medical_information_24"
+            android:title="@string/menu_estadoSalud" />
+        <item
+            android:id="@+id/membresias"
+            android:icon="@drawable/ic_menu_badge"
+            android:title="@string/menu_membresias" />
+        <item
+            android:id="@+id/planNutricional"
+            android:icon="@drawable/baseline_table_chart_24"
+            android:title="@string/menu_planNutricional" />
+        <item
+            android:id="@+id/perfil"
+            android:icon="@drawable/baseline_account_circle_24"
+            android:title="@string/menu_perfil" />
+    </group>
+</menu>
